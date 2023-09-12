@@ -80,8 +80,8 @@ public class MainApp {
         } else {
             System.out.println("Lista de libros:");
             for (Libro book : books) {
-                String estado = book.isReaded() ? "Leído" : "Por leer";
-                System.out.println(book.getId() + ". " + book.getTitle() + " - " + estado);
+                String status = book.isReaded() ? "Leído" : "Por leer";
+                System.out.println(book.getId() + ". " + book.getTitle() + " - " + status);
             }
         }
     }
